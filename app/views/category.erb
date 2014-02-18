@@ -1,0 +1,8 @@
+<div class="container">
+  <h2>The posts in the Category <%= @category.name %>: </h2>
+  <ul>
+    <% @posts.each do |post| %>
+    <li><%= post.name%> </li>
+    <% end %>
+  </ul>
+</div>
